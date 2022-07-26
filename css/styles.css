@@ -261,8 +261,7 @@ color: var(--secondary-accent-color);
    }
 
     .picture {
-        padding-top: 94px;
-        padding-bottom: 94px;
+        padding-top: 0;
     }
    
    .picture-title  {
@@ -309,11 +308,14 @@ justify-content: center;
    .person-info {
     display: flex;
  justify-content: center;
- margin-bottom: 30px;
  column-gap: 30px;
         font-size: 16px;
         line-height: 1.18; 
      color: var(--secondary-accent-color);
+   }
+
+   .person-inform {
+margin-bottom: 30px;
    }
 
 
@@ -501,6 +503,7 @@ margin-bottom: 30px;
 }
 
 .img-name {
+    margin-bottom: 4px;
 font-weight: 700;
 font-size: 18px;
  line-height: 2;
